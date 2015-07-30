@@ -1,1 +1,1 @@
-var access_token = '50f40712e0673169721b245b7d525f3e11e7c0db'
+var access_token = '66040cc8c39ce96399d883046dbb737e1f022619'
