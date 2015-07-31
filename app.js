@@ -32,6 +32,8 @@ app.use('/bower_components', express.static(path.join(__dirname, 'bower_componen
 
 app.use('/public/javascripts', express.static(path.join(__dirname, '/public/javascripts')));
 
+app.use('/secrets', express.static(path.join(__dirname, '/secrets')));
+
 app.use('/', routes);
 app.use('/users', users);
 
